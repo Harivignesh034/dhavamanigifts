@@ -26,7 +26,7 @@ SECRET_KEY = '5&7)@j%itu@6yc77y0a2g0yn7#)%#mv_+0#r$e=1ql2jhjfak%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','dhavamani.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -81,6 +81,14 @@ DATABASES = {
        'ENGINE': 'django.db.backends.sqlite3',
        'NAME': BASE_DIR / 'db.sqlite3',
     }
+    #{
+      #'ENGINE': 'django.db.backends.mysql',
+        #'NAME': 'mygifts',
+        #'USER':'root',
+       # 'PASSWORD':'Harimukesh821@',
+      #  'PORT':'3306',
+     #   'HOST':'127.0.0.1',
+    #}
    
 }
 
@@ -125,7 +133,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.normpath(os.path.join(BASE_DIR, 'staticfiles'))
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
-   
+    #'/var/www/static/',
 )
 
 
