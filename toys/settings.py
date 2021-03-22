@@ -83,9 +83,9 @@ DATABASES = {
     }
     #{
       #'ENGINE': 'django.db.backends.mysql',
-        #'NAME': 'mygifts',
+        #'NAME': '*****',
         #'USER':'root',
-       # 'PASSWORD':'Harimukesh821@',
+       # 'PASSWORD':'*********',
       #  'PORT':'3306',
      #   'HOST':'127.0.0.1',
     #}
@@ -140,6 +140,6 @@ STATICFILES_DIRS = (
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT ='587'
 EMAIL_HOST_USER = 'dhavamanigiftshop@gmail.com'
-EMAIL_HOST_PASSWORD ='dhavamani@123'
+EMAIL_HOST_PASSWORD ='*******'
 EMAIL_USE_TLS = True
 #EMAIL_USE_SSL = False
